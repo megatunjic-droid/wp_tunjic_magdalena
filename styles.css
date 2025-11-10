@@ -6,4 +6,11 @@
  body {
      background-color: chocolate;
         }
-      
+      /*pristup preko ID-a*/
+      #prvi {
+        color:aqua
+      }
+      /*pristup preko klase*/
+      .drugi {
+        color:blue;
+      }
