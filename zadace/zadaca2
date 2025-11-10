@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+
+<html lang="hr">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="author" content="Tvoje ime i prezime">
+
+    <meta name="description" content="Zadaća 2 - Omiljeni filmovi">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Zadaća 2 - Omiljeni filmovi</title>
+
+    <style>
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+            background-color: #f9f9f9;
+
+            text-align: center;
+
+            margin: 20px;
+
+        }
+
+        h1 {
+
+            color: #333;
+
+        }
+
+        table {
+
+            margin: 20px auto;
+
+            border-collapse: collapse;
+
+            width: 80%;
+
+        }
+
+        th, td {
+
+            border: 1px solid #555;
+
+            padding: 10px;
+
+        }
+
+        th {
+
+            background-color: #ddd;
+
+        }
+
+        form {
+
+            margin-top: 30px;
+
+            text-align: left;
+
+            width: 300px;
+
+            margin-left: auto;
+
+            margin-right: auto;
+
+        }
+
+        label {
+
+            display: block;
+
+            margin-top: 10px;
+
+        }
+
+        audio, video {
+
+            margin: 20px;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+
+
+    <h1>Omiljeni filmovi</h1>
+
+
+
+    <table>
+
+        <tr>
+
+            <th colspan="3">Popis omiljenih filmova</th>
+
+        </tr>
+
+        <tr>
+
+            <th>Naslov</th>
+
+            <th>Glavni glumac</th>
+
+            <th>Režiser</th>
+
+        </tr>
+
+        <tr>
+
+            <td>Inception</td>
+
+            <td>Leonardo DiCaprio</td>
+
+            <td>Christopher Nolan</td>
+
+        </tr>
+
+        <tr>
+
+            <td>La La Land</td>
+
+            <td>Ryan Gosling</td>
+
+            <td>Damien Chazelle</td>
+
+        </tr>
+
+        <tr>
+
+            <td rowspan="2">Titanic</td>
+
+            <td>Leonardo DiCaprio</td>
+
+            <td>James Cameron</td>
+
+        </tr>
+
+        <tr>
+
+            <td>Kate Winslet</td>
+
+            <td>James Cameron</td>
+
+        </tr>
+
+    </table>
+
+
+
+    <h2>Obrazac za prijavu</h2>
+
+    <form>
+
+        <label for="ime">Ime i prezime:</label>
+
+        <input type="text" id="ime" name="ime" required>
+
+
+
+        <label for="lozinka">Lozinka:</label>
+
+        <input type="password" id="lozinka" name="lozinka" required>
+
+
+
+        <p>Odaberi ulogu:</p>
+
+        <input type="radio" id="admin" name="uloga" value="admin">
+
+        <label for="admin">Admin</label>
+
+        <input type="radio" id="guest" name="uloga" value="guest">
+
+        <label for="guest">Guest</label>
+
+
+
+        <br><br>
+
+        <input type="checkbox" id="uvjeti" required>
+
+        <label for="uvjeti">Prihvaćam uvjete korištenja</label>
+
+
+
+        <br><br>
+
+        <input type="submit" value="Pošalji">
+
+        <input type="reset" value="Poništi">
+
+    </form>
+
+
+
+    <h2>Multimedija</h2>
+
+    <p>Poslušaj glazbu i pogledaj trailer iz filma:</p>
+
+
+
+    <audio controls>
+
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+
+        
+
+    </audio>
+
+
+
+    <video controls width="400">
+
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+
+        
+
+    </video>
+
+
+
+</body>
+
+</html>
