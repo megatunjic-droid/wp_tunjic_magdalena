@@ -1,0 +1,54 @@
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Naslovi */
+h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+}
+
+h2 {
+    color: #4CAF50;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Glavni sadržaj */
+body {
+    background-color: #FAFAFA; 
+}
+
+main {
+    background-color: #ECEFF1;
+}
+
+/* Paragrafi */
+p:nth-of-type(1) {
+    font-size: 16px;
+    color: #37474F;
+}
+
+p:nth-of-type(2) {
+    font-size: 18px;
+}
+
+p:nth-of-type(3) {
+    font-size: 20px;
+    color: #78909C;
+}
+
+/* Lista */
+ul {
+    list-style-type: square;
+}
+
+/* Klasa i ID */
+.highlight {
+    color: #FFC107;
+}
+
+#main-title {
+    font-size: 4rem;
+}
