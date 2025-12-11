@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>4. Zadaća – Web programiranje</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        
+        .card{
+            background-color: #87CEEB; 
+            padding: 20px;
+            margin: 20px;
+            border: 2px solid #333333;
+            border-radius: 6px;
+            position: relative;
+            width: 300px;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        h2{
+            font-family: Arial, sans-serif;
+            font-size: 24px;
+            text-align: center;
+        }
+
+        p{
+            font-family: "Verdana", sans-serif;
+            font-size: 16px;
+            color: #333333;
+        }
+
+        .more-info{
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            padding: 5px 8px;
+            background-color: #ffffffaa;
+            border-radius: 4px;
+        }
+
+        
+        .flag-container{
+            width: 350px;
+            height: 220px;
+            margin: 40px auto;
+            position: relative;
+            background-color: #005b99;
+        }
+
+        .vertical-bar{
+            position: absolute;
+            background-color: #ffcc00;
+            width: 40px;
+            height: 100%;
+            left: 90px;
+        }
+
+        .horizontal-bar{
+            position: absolute;
+            background-color: #ffcc00;
+            height: 40px;
+            width: 100%;
+            top: 90px;
+        }
+
+        .caption{
+            text-align: center;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    
+    <div class="card">
+        <h2>Informacije o gradu</h2>
+        <p>Naziv: Zagreb</p>
+        <p>Država: Hrvatska</p>
+        <p>Populacija: 770 000</p>
+        <p class="more-info"><a href="https://hr.wikipedia.org/wiki/Zagreb">dodatne informacije</a></p>
+    </div>
+
+   
+    <div class="card" style="background-color: #90e0ef;">
+        <h2>Informacije o gradu</h2>
+        <p>Naziv: Slavonski Brod</p>
+        <p>Država: Hrvatska</p>
+        <p>Populacija: 59 000</p>
+        <p class="more-info"><a href="https://hr.wikipedia.org/wiki/Slavonski_Brod">dodatne informacije</a></p>
+    </div>
+
+   
+    <div class="card" style="background-color: #bde0fe;">
+        <h2>Informacije o gradu</h2>
+        <p>Naziv: Split</p>
+        <p>Država: Hrvatska</p>
+        <p>Populacija: 161 000</p>
+        <p class="more-info"><a href="https://hr.wikipedia.org/wiki/Split">dodatne informacije</a></p>
+    </div>
+
+    
+    <div class="flag-container">
+        <div class="vertical-bar"></div>
+        <div class="horizontal-bar"></div>
+    </div>
+
+    <p class="caption">Slika 1. Zastava Švedske</p>
+
+</body>
+</html>
